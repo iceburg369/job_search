@@ -1,0 +1,13 @@
+/node_modules
+/.next
+/out
+/build
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.env*
+
+# 런타임 상태 저장 파일 (앱이 갱신) — 시드 커밋을 원하면 아래 줄을 지우세요
+/data/status.json
+/data/settings.json
+/data/inbox/
