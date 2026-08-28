@@ -1,0 +1,1036 @@
+{
+  "generatedAt": "2026-08-27",
+  "source": "Saramin MCP (대구 중심 + 청주·수도권·세종 일부) + 사용자 정의 7축 평가",
+  "candidate": "박정연 · 계명대 중국어중국학과(문과) · 대구 거주 · 신입 · 정규직 희망 · 희망연봉 3,000만원 내외 (구글드라이브 정연/자소서 참조)",
+  "criteria": {
+    "note": "공통 하드필터(필기없음·정규직·신입무관·이과전문직제외) + 7축 가중 점수. score = Σ(축×가중치)/(Σ가중치×5)×100. 가중치·필터는 앱의 '평가 기준' 패널(data/settings.json)에서 조정.",
+    "hardFilters": [
+      "필기시험 없음",
+      "정규직만",
+      "신입·무관만(경력 제외)",
+      "이과 전문직종 제외"
+    ],
+    "defaultWeights": {
+      "대구 지역": 2,
+      "신입 초봉 3천+": 1,
+      "기업 Value": 1,
+      "문과 지원 가능": 1,
+      "복지 조건": 1,
+      "전공 무관": 2,
+      "공무직": 1
+    },
+    "defaultThresholds": {
+      "A": 75,
+      "B": 60,
+      "C": 45
+    }
+  },
+  "jobs": [
+    {
+      "id": "54870064",
+      "company": "(주)이음앤",
+      "role": "[범어역/주5일/정규] 내근직 보험금지급 서면심사직",
+      "grade": "C",
+      "score": 58,
+      "weighted": 29,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 4,
+        "companyValue": 3,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 5,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 남구",
+      "employmentType": "경력 무관",
+      "deadline": "D-15",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 남구 범어역 인근 근무 — 대구 거주자 통근 최적",
+        "'정규직·주5일' 공고에 명시 — 안정성 조건 충족",
+        "서면심사 내근직 = 전공 무관, 문과 지원 가능",
+        "성과급 등 복지 조건 표기"
+      ],
+      "missingKeywords": [
+        "보험 약관·손해사정 지식",
+        "공공기관 아님(공무직 점수 낮음)",
+        "대기업 규모는 아님"
+      ],
+      "notes": "이 풀에서 유일하게 공고 제목에 '정규'가 박혀 있는 자리. 전형절차(필기 유무)·초봉은 공고 원문 확인 권장.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54870064",
+      "recIdx": 54870064
+    },
+    {
+      "id": "54869595",
+      "company": "법무법인삼일",
+      "role": "총무부 직원 모집",
+      "grade": "B",
+      "score": 64,
+      "weighted": 32,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 3,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 5,
+        "publicJob": 2
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "신입/경력",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 수성구 근무 — 통근 최적",
+        "법무법인 총무 = 전공 무관·문과 지원 가능, 안정적 조직",
+        "'칼퇴근 보장' 복지 표기",
+        "신입 지원 가능"
+      ],
+      "missingKeywords": [
+        "총무·서무 실무 경험",
+        "공공기관은 아님",
+        "대기업 규모 아님"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54869595",
+      "recIdx": 54869595
+    },
+    {
+      "id": "54870450",
+      "company": "아이파킹(주)",
+      "role": "대구지사 영업직 채용",
+      "grade": "C",
+      "score": 56,
+      "weighted": 28,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 3,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 5,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "신입/경력",
+      "deadline": "D-60",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 동구 지사 근무",
+        "전공 무관·문과 지원 가능, 신입 채용",
+        "주차 플랫폼 기업 — 중소보다 브랜드 인지도 있음",
+        "식비 지원 복지 표기"
+      ],
+      "missingKeywords": [
+        "B2B 영업 경험",
+        "영업직은 지원자 성향(교육·기획)과 거리",
+        "공공기관 아님"
+      ],
+      "notes": "새 기준(대구·전공무관·문과가능) 상 높게 나오지만 직무는 영업. 지원자 성향과의 거리는 별도 판단 필요.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54870450",
+      "recIdx": 54870450
+    },
+    {
+      "id": "54865200",
+      "company": "경산상공회의소",
+      "role": "회원사 채용관",
+      "grade": "A",
+      "score": 76,
+      "weighted": 38,
+      "breakdown": {
+        "daegu": 4,
+        "salary": 3,
+        "companyValue": 4,
+        "liberalArtsOk": 5,
+        "benefits": 2,
+        "majorAny": 4,
+        "publicJob": 4
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "경력 무관",
+      "deadline": "D-13",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "상공회의소 = 준공공기관 성격 (공무직 점수 상승)",
+        "전공 무관·문과 지원 가능, 경력 무관",
+        "대구·경산권 근무"
+      ],
+      "missingKeywords": [
+        "실제 채용 직무·근무지 불명확",
+        "복지 정보 부족",
+        "초봉 정보 없음"
+      ],
+      "notes": "⚠ '회원사 채용관' = 여러 회원사 채용을 묶은 페이지일 수 있어 실채용 조건이 불확실. 지원 전 개별 공고 확인 필요.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54865200",
+      "recIdx": 54865200
+    },
+    {
+      "id": "54870907",
+      "company": "법무법인테헤란대구변호사사무소",
+      "role": "[대구점] 마케터 직원 채용 (바이럴/영상)",
+      "grade": "B",
+      "score": 60,
+      "weighted": 30,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 3,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 4,
+        "publicJob": 2
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "신입/경력",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 수성구 근무",
+        "바이럴/영상 마케팅 = 지원자의 Canva·Vrew(교육용 Shorts) 역량과 접점",
+        "전공 무관·문과 지원 가능, 신입 채용",
+        "'점심식사 제공' 복지 표기 · 테헤란 브랜드 인지도"
+      ],
+      "missingKeywords": [
+        "퍼포먼스 마케팅·광고 집행 경험",
+        "포트폴리오",
+        "공공기관 아님"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54870907",
+      "recIdx": 54870907
+    },
+    {
+      "id": "54832009",
+      "company": "(주)영솔라에너지",
+      "role": "태양광발전기업 대관(관공서·공기업) 업무",
+      "grade": "B",
+      "score": 64,
+      "weighted": 32,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 2,
+        "majorAny": 4,
+        "publicJob": 3
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "신입/경력",
+      "deadline": "D-19",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대관(관공서·공기업 상대) 업무 = 공공 접점, 문과 사무직",
+        "대구 동구 근무, 신입 지원 가능",
+        "전공 무관 성격"
+      ],
+      "missingKeywords": [
+        "인허가·행정 절차 지식",
+        "태양광/에너지 도메인",
+        "중소기업 규모·복지 정보 부족"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54832009",
+      "recIdx": 54832009
+    },
+    {
+      "id": "54869680",
+      "company": "에코빅풋(주)",
+      "role": "대구시 달서구 건설회사 신입 사무원",
+      "grade": "C",
+      "score": 50,
+      "weighted": 25,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 2,
+        "majorAny": 5,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "신입/경력",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "'신입 사무원' 명시 — 전공 무관·문과 지원 가능",
+        "대구 달서구 근무",
+        "건설사 사무직(현장직 아님)"
+      ],
+      "missingKeywords": [
+        "건설 행정·계약 실무",
+        "초봉 낮을 가능성(중소 건설 사무)",
+        "복지 정보 부족",
+        "공공기관 아님"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54869680",
+      "recIdx": 54869680
+    },
+    {
+      "id": "54871167",
+      "company": "(주)바인더",
+      "role": "발주 및 CS 담당자 모집",
+      "grade": "C",
+      "score": 50,
+      "weighted": 25,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 2,
+        "majorAny": 5,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "경력 무관",
+      "deadline": "채용시 마감",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "발주·CS 사무 = 전공 무관, 문과 지원 가능",
+        "대구 달서구 근무, 경력 무관",
+        "지원자의 카페 CS 경험(경청·불만 응대)과 접점"
+      ],
+      "missingKeywords": [
+        "ERP·발주 시스템 사용",
+        "초봉·복지 정보 부족",
+        "회사 규모 작음",
+        "공공기관 아님"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54871167",
+      "recIdx": 54871167
+    },
+    {
+      "id": "54832794",
+      "company": "유니에코도시환경디자인연구소",
+      "role": "지역역량강화(S/W)사업 신입사원 채용",
+      "grade": "B",
+      "score": 62,
+      "weighted": 31,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 3
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "신입",
+      "deadline": "D-27",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "지역역량강화 사업 = 공공사업 수행, 공무직 접점",
+        "'신입' 단독 채용, 대구 수성구 근무",
+        "'퇴직금' 등 복지 표기"
+      ],
+      "missingKeywords": [
+        "도시·환경 계획 지식",
+        "S/W(소프트웨어) 사업 성격이라 전공무관도는 낮음",
+        "사업 계약직 여부 확인 필요"
+      ],
+      "notes": "'지역역량강화(S/W)'가 소프트웨어인지 소프트한 사업인지 공고 원문 확인 필요.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54832794",
+      "recIdx": 54832794
+    },
+    {
+      "id": "54868495",
+      "company": "빔웍스",
+      "role": "(주)빔웍스 마케팅 어플리케이터 채용",
+      "grade": "C",
+      "score": 50,
+      "weighted": 25,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 4,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 북구",
+      "employmentType": "경력 무관",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 북구 근무, 경력 무관",
+        "마케팅 직무 = 문과 지원 가능",
+        "'탄력근무제' 복지 · 의료 AI 스타트업으로 성장성 있음"
+      ],
+      "missingKeywords": [
+        "의료기기/헬스케어 도메인",
+        "마케팅 실무·툴 숙련",
+        "공공기관 아님",
+        "스타트업 안정성 리스크"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54868495",
+      "recIdx": 54868495
+    },
+    {
+      "id": "54871187",
+      "company": "(주)류엔",
+      "role": "브랜드 마케터 모집",
+      "grade": "C",
+      "score": 48,
+      "weighted": 24,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 2,
+        "majorAny": 4,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 중구",
+      "employmentType": "경력 무관",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 중구 근무, 경력 무관",
+        "브랜드 마케팅 = 문과 지원 가능",
+        "전공 무관 성격"
+      ],
+      "missingKeywords": [
+        "브랜드/콘텐츠 마케팅 포트폴리오",
+        "회사 규모 작음",
+        "복지·초봉 정보 부족",
+        "공공기관 아님"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54871187",
+      "recIdx": 54871187
+    },
+    {
+      "id": "54871842",
+      "company": "(주)티에스코리아",
+      "role": "중국 소싱·무역 담당 채용",
+      "grade": "D",
+      "score": 44,
+      "weighted": 22,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "경력 무관",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "중국어중국학과 전공 직접 활용 — 문과 지원 가능 최상",
+        "대구 수성구 근무, 경력 무관",
+        "무역/소싱 사무직"
+      ],
+      "missingKeywords": [
+        "중국어 능통 요구 → 순수 '전공 무관'은 아님(감점)",
+        "무역 실무·인코텀즈",
+        "회사 규모 작음",
+        "복지·초봉 정보 부족"
+      ],
+      "notes": "전공 무관 축은 낮지만 '문과 지원 가능' 축은 만점. 중국어 역량이 강점이면 우선순위 상향 여지.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54871842",
+      "recIdx": 54871842
+    },
+    {
+      "id": "54869209",
+      "company": "아뜨레",
+      "role": "앨범 액자 일본수출 사업부 사원 모집",
+      "grade": "D",
+      "score": 44,
+      "weighted": 22,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "경력 무관",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "일본수출 무역사무 = 문과 지원 가능",
+        "대구 달서구 근무, 경력 무관",
+        "'퇴직금' 복지 표기"
+      ],
+      "missingKeywords": [
+        "일본어 선호 가능 → 전공 무관도 낮음",
+        "무역/수출 실무",
+        "제조 중소기업, 초봉 낮을 가능성",
+        "공공기관 아님"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54869209",
+      "recIdx": 54869209
+    },
+    {
+      "id": "54868970",
+      "company": "(주)대산전기",
+      "role": "전기공사업체 경리직 채용",
+      "grade": "D",
+      "score": 40,
+      "weighted": 20,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 2,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 북구",
+      "employmentType": "경력 무관",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 북구 근무, 경력 무관 표기",
+        "경리 사무 = 문과 지원 가능"
+      ],
+      "missingKeywords": [
+        "'건설 유경험자·북구 거주자 우대' = 사실상 경력 선호",
+        "전산회계·전표 실무",
+        "초봉 낮을 가능성",
+        "공공기관 아님"
+      ],
+      "notes": "⚠ 경력 무관 표기지만 건설 유경험자 우대라 신입에겐 불리.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54868970",
+      "recIdx": 54868970
+    },
+    {
+      "id": "54867499",
+      "company": "(주)조선아이디",
+      "role": "발주관리 사무직 (정규직)",
+      "grade": "C",
+      "score": 54,
+      "weighted": 27,
+      "breakdown": {
+        "daegu": 0,
+        "salary": 3,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 5,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "충북 청주시",
+      "employmentType": "신입",
+      "deadline": "D-10",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "청주 근무 — 지원자 원래 2지망(충청·청주시) 연고 지역",
+        "'정규직·신입' 명시, 발주관리 사무 = 전공 무관·문과 지원 가능",
+        "상여금 복지 표기"
+      ],
+      "missingKeywords": [
+        "근무지가 대구 아님(대구 축 0점)",
+        "발주·구매 시스템 경험",
+        "제조 도메인",
+        "공공기관 아님"
+      ],
+      "notes": "대구 가중치를 낮추면 상위로 올라오는 비-대구 대표 공고. 청주는 지원자 원래 희망지.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54867499",
+      "recIdx": 54867499
+    },
+    {
+      "id": "54858083",
+      "company": "브이토리",
+      "role": "[전국 TOP3 법률 마케팅 대행사] 마케팅 담당자",
+      "grade": "C",
+      "score": 54,
+      "weighted": 27,
+      "breakdown": {
+        "daegu": 0,
+        "salary": 3,
+        "companyValue": 3,
+        "liberalArtsOk": 5,
+        "benefits": 4,
+        "majorAny": 4,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "충북 청주시",
+      "employmentType": "경력 무관",
+      "deadline": "D-29",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "청주 근무, 경력 무관 — 문과 지원 가능",
+        "법률 마케팅 = 지원자 Canva·Vrew 콘텐츠 역량과 접점",
+        "'재택근무' 복지 표기"
+      ],
+      "missingKeywords": [
+        "근무지가 대구 아님(대구 축 0점)",
+        "퍼포먼스 마케팅 실무",
+        "대행사 업무 강도",
+        "공공기관 아님"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54858083",
+      "recIdx": 54858083
+    },
+    {
+      "id": "54864369",
+      "company": "세중해운(주)",
+      "role": "[세중그룹] 각 부문 채용",
+      "grade": "C",
+      "score": 54,
+      "weighted": 27,
+      "breakdown": {
+        "daegu": 0,
+        "salary": 4,
+        "companyValue": 4,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 4,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "서울 강서구",
+      "employmentType": "신입/경력",
+      "deadline": "D-3",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "세중그룹 계열 공채 — 기업 Value·초봉 축이 비-대구 중 최상",
+        "'각 부문' = 경영지원·사무 포지션 포함 가능, 문과 지원 여지",
+        "신입 지원 가능"
+      ],
+      "missingKeywords": [
+        "근무지 서울(대구 축 0점)",
+        "'각 부문' — 직무 미확정",
+        "마감 D-3 임박",
+        "공공기관 아님"
+      ],
+      "notes": "⚠ '각 부문'이라 실제 지원 직무를 공고에서 특정해야 함.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54864369",
+      "recIdx": 54864369
+    },
+    {
+      "id": "54870766",
+      "company": "(주)에이지에프앤비",
+      "role": "브랜드 마케팅·사업운영 담당자 (정부지원사업 병행)",
+      "grade": "B",
+      "score": 64,
+      "weighted": 32,
+      "breakdown": {
+        "daegu": 0,
+        "salary": 3,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 2,
+        "majorAny": 4,
+        "publicJob": 3
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "경기 용인시 수지구",
+      "employmentType": "경력 무관",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "정부지원사업 병행 = 공공 접점(공무직 축 상승)",
+        "브랜드 마케팅·사업운영 = 전공 무관·문과 지원 가능, 경력 무관",
+        "지원자 기획·운영 경험과 접점"
+      ],
+      "missingKeywords": [
+        "근무지 용인(대구 축 0점)",
+        "F&B 도메인",
+        "정부지원사업 정산·행정",
+        "소규모 기업 안정성"
+      ],
+      "notes": null,
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54870766",
+      "recIdx": 54870766
+    },
+    {
+      "id": "54867691",
+      "company": "(주)누리컨설팅",
+      "role": "세종본사 영업팀(TM) 정규직 채용",
+      "grade": "C",
+      "score": 54,
+      "weighted": 27,
+      "breakdown": {
+        "daegu": 0,
+        "salary": 3,
+        "companyValue": 2,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 5,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "세종특별자치시",
+      "employmentType": "신입",
+      "deadline": "D-14",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "'정규직·신입' 명시, 세종 근무 — 전공 무관·문과 지원 가능",
+        "상여금·면접비 등 복지 표기"
+      ],
+      "missingKeywords": [
+        "근무지 세종(대구 축 0점)",
+        "TM(텔레마케팅) = 이직률 높은 직무",
+        "실적 압박",
+        "공공기관 아님"
+      ],
+      "notes": "⚠ TM 영업직이라 직무 지속성은 낮게 평가.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54867691",
+      "recIdx": 54867691
+    },
+    {
+      "id": "54842456",
+      "company": "한국토지주택공사 대구경북지역본부",
+      "role": "대체인력 채용공고",
+      "grade": "A",
+      "score": 94,
+      "weighted": 47,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 4,
+        "companyValue": 5,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 5,
+        "publicJob": 5
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": false,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "경력 무관",
+      "deadline": "D-11",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "LH = 공기업, 공무직 축 만점",
+        "대구경북지역본부 근무, 전공 무관·문과 지원 가능",
+        "공기업 처우로 초봉·복지 양호"
+      ],
+      "missingKeywords": [
+        "대체인력 = 기간제 계약 (정규직 아님)"
+      ],
+      "notes": "점수는 최상위지만 '대체인력=기간제'라 하드필터(정규직만)에서 제외됨. 정규직 필터를 끄면 목록 상단으로 올라옴.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54842456",
+      "recIdx": 54842456
+    },
+    {
+      "id": "54808859",
+      "company": "사단법인 한국나눔연맹",
+      "role": "[월 365만] 인사 사무 정규직 채용",
+      "grade": "B",
+      "score": 72,
+      "weighted": 36,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 5,
+        "companyValue": 3,
+        "liberalArtsOk": 5,
+        "benefits": 3,
+        "majorAny": 4,
+        "publicJob": 3
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": false,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "경력",
+      "deadline": "D-8",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "월 365만(연 약 4,380만) — 초봉 3천+ 축 만점",
+        "정규직·인사 사무·대구 달서구, 문과 지원 가능",
+        "사단법인 = 준공공 성격"
+      ],
+      "missingKeywords": [
+        "'경력' 요구 — 신입·무관 필터에서 제외",
+        "인사 실무 연차"
+      ],
+      "notes": "조건이 좋지만 경력직이라 하드필터(신입·무관만)에서 제외됨. 필터를 끄면 상위권.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54808859",
+      "recIdx": 54808859
+    },
+    {
+      "id": "54853397",
+      "company": "오늘회계법인",
+      "role": "[사세확장] 대구 회계법인 기장 경력직 모집",
+      "grade": "C",
+      "score": 46,
+      "weighted": 23,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 3,
+        "liberalArtsOk": 3,
+        "benefits": 2,
+        "majorAny": 2,
+        "publicJob": 2
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": false,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "경력",
+      "deadline": "D-44",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 동구 근무",
+        "회계법인 = 안정적"
+      ],
+      "missingKeywords": [
+        "'경력직' 명시 — 신입·무관 필터에서 제외",
+        "기장·세무 실무",
+        "회계 전공 선호"
+      ],
+      "notes": "경력직이라 하드필터에서 제외.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54853397",
+      "recIdx": 54853397
+    },
+    {
+      "id": "54869472",
+      "company": "(의)경동의료재단",
+      "role": "대구 효성병원 방사선사 채용",
+      "grade": "D",
+      "score": 34,
+      "weighted": 17,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 3,
+        "liberalArtsOk": 0,
+        "benefits": 3,
+        "majorAny": 0,
+        "publicJob": 2
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": true
+      },
+      "location": "대구 수성구",
+      "employmentType": "경력 무관",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 수성구 근무, 경력 무관",
+        "병원 = 안정적, 가족 의료비 지원"
+      ],
+      "missingKeywords": [
+        "방사선사 면허 필수 = 이과 전문직",
+        "문과 지원 불가",
+        "전공 무관 불가"
+      ],
+      "notes": "이과 전문직(의료 면허직)이라 하드필터에서 제외.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54869472",
+      "recIdx": 54869472
+    },
+    {
+      "id": "54869277",
+      "company": "세진하이테크",
+      "role": "[기계설계] 자동화 기기 설계팀 직원 모집",
+      "grade": "D",
+      "score": 24,
+      "weighted": 12,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 2,
+        "liberalArtsOk": 0,
+        "benefits": 3,
+        "majorAny": 0,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": true
+      },
+      "location": "대구 달서구",
+      "employmentType": "신입/경력",
+      "deadline": "D-30",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 달서구 근무",
+        "'자녀학자금' 복지"
+      ],
+      "missingKeywords": [
+        "기계설계 = 이과 전문직",
+        "CAD·기구 설계 역량",
+        "문과·전공 무관 불가"
+      ],
+      "notes": "이과 전문직(설계 엔지니어)이라 하드필터에서 제외.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54869277",
+      "recIdx": 54869277
+    },
+    {
+      "id": "54870900",
+      "company": "(주)청암수처리산업",
+      "role": "수처리플랜트 기계/환경/화학 신입 채용",
+      "grade": "D",
+      "score": 22,
+      "weighted": 11,
+      "breakdown": {
+        "daegu": 5,
+        "salary": 3,
+        "companyValue": 2,
+        "liberalArtsOk": 0,
+        "benefits": 2,
+        "majorAny": 0,
+        "publicJob": 1
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": true
+      },
+      "location": "대구 달서구",
+      "employmentType": "경력 무관",
+      "deadline": "D-60",
+      "writtenTest": "없음(추정)",
+      "matchReasons": [
+        "대구 달서구 근무, 신입 채용"
+      ],
+      "missingKeywords": [
+        "기계·환경·화학 전공 요구 = 이과 전문직",
+        "플랜트 엔지니어링",
+        "문과·전공 무관 불가"
+      ],
+      "notes": "이과 전문직(플랜트 엔지니어)이라 하드필터에서 제외.",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54870900",
+      "recIdx": 54870900
+    }
+  ]
+}
