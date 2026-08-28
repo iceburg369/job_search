@@ -54,6 +54,8 @@ export interface Job {
   url: string;
   /** 최신순 정렬 기준 (사람인 공고번호 = 등록시각과 단조 증가) */
   recIdx: number;
+  /** 이 공고가 처음 취합된 시각 (ISO). collect.mjs 가 신규 공고에 기록 → "오늘 신규" 배지 판정 */
+  firstSeenAt?: string;
 }
 
 export interface RankedJobsFile {

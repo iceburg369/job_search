@@ -26,6 +26,22 @@ const LS_SETTINGS_SAVED = "jobboard:settings:saved:v1";
 const isDefaultSettings = (s: AppSettings) =>
   JSON.stringify(s?.criteria) === JSON.stringify(DEFAULT_SETTINGS.criteria);
 
+/** firstSeenAt(ISO)이 오늘(로컬 날짜)이면 true → "오늘 올라온" 공고. */
+function isNewToday(iso?: string): boolean {
+  if (!iso) return false;
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return false;
+  return d.toDateString() === new Date().toDateString();
+}
+
+function NewBadge() {
+  return (
+    <span className="badge-new" title="오늘 올라온 공고">
+      NEW
+    </span>
+  );
+}
+
 function lsRead<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
   try {
@@ -261,10 +277,11 @@ export default function Dashboard() {
     return {
       total: included.length,
       excluded: excludedJobs.length,
+      newToday: scored.filter((j) => isNewToday(j.firstSeenAt)).length,
       byGrade,
       avg: included.length ? Math.round((sum / included.length) * 10) / 10 : 0
     };
-  }, [included, excludedJobs]);
+  }, [included, excludedJobs, scored]);
 
   // ----- 필터 + 정렬 -----
   const visible = useMemo(() => {
@@ -325,6 +342,9 @@ export default function Dashboard() {
           <div className="stat__label">공고 수 (필터 통과)</div>
           <div className="stat__value">
             {summary.total}
+            {summary.newToday > 0 && (
+              <span className="stat__sub stat__sub--new"> · 오늘 신규 {summary.newToday}</span>
+            )}
             {summary.excluded > 0 && (
               <span className="stat__sub"> · 제외 {summary.excluded}</span>
             )}
@@ -430,7 +450,10 @@ export default function Dashboard() {
             <article className="job" key={j.id}>
               <div className="job__top">
                 <div>
-                  <div className="job__company">{j.company}</div>
+                  <div className="job__company">
+                    {isNewToday(j.firstSeenAt) && <NewBadge />}
+                    {j.company}
+                  </div>
                   <div className="job__role">{j.role}</div>
                 </div>
                 <GradeBadge grade={j.liveGrade} />
@@ -517,7 +540,8 @@ export default function Dashboard() {
             <tbody>
               {visible.map((j) => (
                 <tr key={j.id}>
-                  <td>
+                  <td style={{ whiteSpace: "nowrap" }}>
+                    {isNewToday(j.firstSeenAt) && <NewBadge />}
                     <GradeBadge grade={j.liveGrade} />
                   </td>
                   <td>
@@ -585,6 +609,7 @@ export default function Dashboard() {
             {excludedJobs.map((j) => (
               <li key={j.id}>
                 <span className={`grade grade--${j.liveGrade}`}>{j.liveGrade}</span>
+                {isNewToday(j.firstSeenAt) && <NewBadge />}
                 <span className="excluded__score">{j.liveScore}</span>
                 <span className="excluded__co">{j.company}</span>
                 <span className="excluded__role">{j.role}</span>

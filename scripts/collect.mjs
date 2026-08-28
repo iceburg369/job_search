@@ -29,6 +29,8 @@ const RANKED = path.join(ROOT, "data", "ranked-jobs.json");
 const SETTINGS = path.join(ROOT, "data", "settings.json");
 const INBOX = path.join(ROOT, "data", "inbox", "ranked-jobs.json");
 const FETCHER = path.join(ROOT, "scripts", "fetch-saramin.mjs");
+/** 이번 취합에서 "새로 올라온" 공고만 추린 결과 — 카카오톡 알림 등이 읽어감. */
+const NEW_JOBS = path.join(ROOT, "data", "new-jobs.json");
 
 const AXIS_KEYS = ["daegu", "salary", "companyValue", "liberalArtsOk", "benefits", "majorAny", "publicJob"];
 const DEFAULT_WEIGHTS = { daegu: 2, salary: 1, companyValue: 1, liberalArtsOk: 1, benefits: 1, majorAny: 2, publicJob: 1 };
@@ -105,17 +107,49 @@ async function main() {
   const jobs = fresh ? mergeJobs(existing, fresh.jobs) : existing;
   const source = fresh ? fresh.source : "rescore";
 
+  // "오늘 신규" 판정용 firstSeenAt 채우기:
+  //  - 이번에 새로 들어온 공고(기존 id 목록에 없음) → 지금 시각
+  //  - 이미 있던 공고인데 값이 없음 → 직전 generatedAt(없으면 epoch) 으로 backfill (오늘 아님)
+  const existingIds = new Set(existing.map((j) => String(j.id)));
+  const nowIso = new Date().toISOString();
+  const prevGen = !Array.isArray(file) && file.generatedAt ? new Date(file.generatedAt) : null;
+  const backfillIso = prevGen && !Number.isNaN(prevGen.getTime()) ? prevGen.toISOString() : new Date(0).toISOString();
+
+  const isNewThisRun = (j) => !existingIds.has(String(j.id));
+
   const recomputed = jobs.map((j) => {
     const b = j.breakdown || {};
     const score = scoreJob(b, weights);
     const weighted = Math.round(AXIS_KEYS.reduce((s, k) => s + (b[k] || 0) * (weights[k] || 0), 0) * 100) / 100;
-    return { ...j, score, weighted, grade: gradeFor(score, thresholds) };
+    const firstSeenAt = j.firstSeenAt ?? (isNewThisRun(j) ? nowIso : backfillIso);
+    return { ...j, score, weighted, grade: gradeFor(score, thresholds), firstSeenAt };
   });
 
   const out = Array.isArray(file)
     ? recomputed
     : { ...file, generatedAt: new Date().toISOString().slice(0, 10), jobs: recomputed };
   await writeFile(RANKED, JSON.stringify(out, null, 2) + "\n", "utf-8");
+
+  // 이번 취합에서 새로 올라온 공고 (점수순) → data/new-jobs.json
+  const newJobs = recomputed
+    .filter(isNewThisRun)
+    .sort((a, b) => b.score - a.score)
+    .map((j) => ({
+      id: j.id,
+      company: j.company,
+      role: j.role,
+      grade: j.grade,
+      score: j.score,
+      location: j.location,
+      deadline: j.deadline,
+      url: j.url,
+      firstSeenAt: j.firstSeenAt
+    }));
+  await writeFile(
+    NEW_JOBS,
+    JSON.stringify({ generatedAt: nowIso, source, count: newJobs.length, jobs: newJobs }, null, 2) + "\n",
+    "utf-8"
+  );
 
   const nextSettings = {
     ...settings,
@@ -127,10 +161,12 @@ async function main() {
   const msg =
     source === "rescore"
       ? `${recomputed.length}개 공고 재채점 (새 사람인 데이터 없음 — inbox/fetch-saramin 미연결)`
-      : `${recomputed.length}개 공고 취합 (source: ${source})`;
+      : `${recomputed.length}개 공고 취합 (source: ${source}) · 신규 ${newJobs.length}`;
   console.log(`[collect] ${msg} · 기준 ${JSON.stringify(weights)} · ${new Date().toLocaleString("ko-KR")}`);
   // JSON 한 줄 — API 가 파싱
-  console.log(`__RESULT__ ${JSON.stringify({ ok: true, source, jobCount: recomputed.length, message: msg })}`);
+  console.log(
+    `__RESULT__ ${JSON.stringify({ ok: true, source, jobCount: recomputed.length, newCount: newJobs.length, message: msg })}`
+  );
 }
 
 main().catch((e) => {
