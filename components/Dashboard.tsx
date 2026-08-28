@@ -21,6 +21,10 @@ type SortKey = "score" | "company" | "recent";
 
 const LS_STATUS = "jobboard:status:v1";
 const LS_SETTINGS = "jobboard:settings:v1";
+const LS_SETTINGS_SAVED = "jobboard:settings:saved:v1";
+
+const isDefaultSettings = (s: AppSettings) =>
+  JSON.stringify(s?.criteria) === JSON.stringify(DEFAULT_SETTINGS.criteria);
 
 function lsRead<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
@@ -99,10 +103,26 @@ export default function Dashboard() {
         setStatus(sm);
 
         if (cr && cr.ok) {
-          const st = (await cr.json()) as AppSettings;
+          const serverSt = (await cr.json()) as AppSettings;
+          const localSt = lsRead<AppSettings | null>(LS_SETTINGS, null);
+          // 서버(Vercel 임시 저장소)가 콜드스타트로 초기화돼 기본값만 돌려주는데
+          // 브라우저에 직접 저장했던 기준이 있으면 그쪽을 신뢰하고 다시 밀어넣는다.
+          const localWins =
+            !!localSt &&
+            lsRead<boolean>(LS_SETTINGS_SAVED, false) &&
+            isDefaultSettings(serverSt) &&
+            !isDefaultSettings(localSt);
+          const st = localWins ? (localSt as AppSettings) : serverSt;
           if (alive) {
             setSettings(st);
             lsWrite(LS_SETTINGS, st);
+            if (localWins) {
+              fetch("/api/settings", {
+                method: "POST",
+                headers: { "content-type": "application/json" },
+                body: JSON.stringify(st)
+              }).catch(() => {});
+            }
           }
         } else {
           if (alive) {
@@ -163,6 +183,7 @@ export default function Dashboard() {
         .then((r) => {
           if (!r.ok) throw new Error();
           setSettingsWarn(false);
+          lsWrite(LS_SETTINGS_SAVED, true);
         })
         .catch(() => setSettingsWarn(true));
     }, 350);
@@ -181,6 +202,7 @@ export default function Dashboard() {
       });
       if (!sr.ok) throw new Error("평가 기준 저장 실패");
       setSettingsWarn(false);
+      lsWrite(LS_SETTINGS_SAVED, true);
 
       // 2) 사람인 재취합 실행
       const cr = await fetch("/api/collect", { method: "POST" });
