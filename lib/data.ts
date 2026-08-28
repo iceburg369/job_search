@@ -1,18 +1,30 @@
 import { promises as fs } from "fs";
 import os from "os";
 import path from "path";
+import { Redis } from "@upstash/redis";
 import { DEFAULT_SETTINGS, type AppSettings, type DeepDive, type RankedJobsFile, type StatusMap } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const RANKED_PATH = path.join(DATA_DIR, "ranked-jobs.json");
 const DEEP_DIR = path.join(DATA_DIR, "deep-dives");
 
-/* ---------- 쓰기 가능한 저장소 (Vercel 등 읽기전용 FS 대응) ----------
- * Vercel 서버리스는 /var/task 가 읽기전용이라 data/*.json 저장이 EROFS 로 실패한다.
- * 그래서 저장은 다음 순서로 자동 강등한다: data/  →  os.tmpdir()  →  프로세스 메모리.
- * 어느 단계든 성공하면 에러를 던지지 않는다. (읽기는 메모리 → tmp → 번들된 data/ 순)
- * 영구 보관이 필요하면 Vercel KV/Postgres/Blob 같은 외부 저장소를 붙이면 된다. */
+/* ---------- 저장소 (Vercel 등 읽기전용 FS 대응) ----------
+ * 우선순위:
+ *   1. Vercel KV / Upstash Redis  — 환경변수가 있으면 영구 저장소로 사용 (기기·재배포 간 유지)
+ *   2. data/ (로컬 파일)          — 로컬 개발·자체 호스팅
+ *   3. os.tmpdir()               — Vercel Lambda 에서 유일하게 쓸 수 있는 곳 (인스턴스 수명 동안만)
+ *   4. 프로세스 메모리            — 마지막 방어선
+ * 쓰기는 어느 단계든 성공하면 throw 하지 않는다. 읽기는 KV → 메모리 → tmp → 번들된 data/ 순.
+ *
+ * KV 를 켜려면 Vercel 대시보드에서 Storage → Redis(Upstash) 를 만들고 프로젝트에 연결하면
+ * KV_REST_API_URL / KV_REST_API_TOKEN (또는 UPSTASH_REDIS_REST_URL/TOKEN) 이 자동 주입된다. */
 const TMP_DIR = path.join(os.tmpdir(), "job-status-board");
+
+const KV_URL = process.env.KV_REST_API_URL ?? process.env.UPSTASH_REDIS_REST_URL;
+const KV_TOKEN = process.env.KV_REST_API_TOKEN ?? process.env.UPSTASH_REDIS_REST_TOKEN;
+const kv = KV_URL && KV_TOKEN ? new Redis({ url: KV_URL, token: KV_TOKEN }) : null;
+export const kvEnabled = kv !== null;
+const kvKey = (name: string) => "jobboard:" + name.replace(/\.json$/i, "");
 
 /** 인스턴스 수명 동안 마지막으로 저장한 값 (파일 저장이 모두 막혀도 최소한 유지). */
 const memoryStore = new Map<string, string>();
@@ -22,11 +34,19 @@ function isReadOnlyFsError(err: unknown): boolean {
   return code === "EROFS" || code === "EACCES" || code === "EPERM" || code === "ENOENT";
 }
 
-export type PersistTarget = "fs" | "tmp" | "memory";
+export type PersistTarget = "kv" | "fs" | "tmp" | "memory";
 
-/** data/<name> 에 저장을 시도하고, 읽기전용이면 tmp → 메모리로 강등한다. 절대 throw 하지 않는다. */
+/** <name> 을 저장한다: KV(있으면) → data/ → os.tmpdir() → 메모리. 절대 throw 하지 않는다. */
 async function persistJson(name: string, text: string): Promise<PersistTarget> {
   memoryStore.set(name, text);
+  if (kv) {
+    try {
+      await kv.set(kvKey(name), JSON.parse(text));
+      return "kv";
+    } catch (err) {
+      console.error("[data] KV 저장 실패, 파일로 폴백:", (err as Error).message);
+    }
+  }
   try {
     await fs.mkdir(DATA_DIR, { recursive: true });
     await fs.writeFile(path.join(DATA_DIR, name), text, "utf-8");
@@ -43,8 +63,20 @@ async function persistJson(name: string, text: string): Promise<PersistTarget> {
   }
 }
 
-/** data/<name> 를 읽는다: 메모리 캐시 → tmp 사본 → 저장소에 번들된 원본 순. 없으면 null. */
+/** <name> 을 읽는다: KV(있으면) → 메모리 캐시 → tmp 사본 → 번들된 data/ 원본. 없으면 null. */
 async function loadJson(name: string): Promise<string | null> {
+  if (kv) {
+    try {
+      const v = await kv.get(kvKey(name));
+      if (v != null) {
+        const s = typeof v === "string" ? v : JSON.stringify(v);
+        memoryStore.set(name, s);
+        return s;
+      }
+    } catch (err) {
+      console.error("[data] KV 읽기 실패, 파일로 폴백:", (err as Error).message);
+    }
+  }
   const mem = memoryStore.get(name);
   if (mem !== undefined) return mem;
   for (const p of [path.join(TMP_DIR, name), path.join(DATA_DIR, name)]) {
