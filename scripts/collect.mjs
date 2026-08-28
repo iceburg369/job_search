@@ -102,13 +102,22 @@ async function getFreshJobs(criteria) {
   return null;
 }
 
-/** 기존 공고의 지원상태 연결용 필드는 유지하면서 fresh 로 교체/병합. */
+/** 기존 + fresh 를 id 기준 합집합으로 병합.
+ *  - 겹치는 공고: 기존 값 위에 fresh 를 덮어씀 (지원상태 등 기존 필드 보존, 최신 정보 반영)
+ *  - fresh 에만 있는 공고: 신규로 추가
+ *  - 기존에만 있는 공고: 그대로 유지 (마감/삭제돼도 지원상태·이력 보존)
+ *  정렬은 fresh(이번 취합분) 먼저, 그 뒤에 남은 기존 공고. */
 function mergeJobs(existing, fresh) {
-  const byId = new Map(existing.map((j) => [j.id, j]));
-  return fresh.map((nj) => {
-    const old = byId.get(nj.id);
+  const freshIds = new Set(fresh.map((j) => String(j.id)));
+  const byId = new Map(existing.map((j) => [String(j.id), j]));
+  const merged = fresh.map((nj) => {
+    const old = byId.get(String(nj.id));
     return old ? { ...old, ...nj } : nj;
   });
+  for (const oj of existing) {
+    if (!freshIds.has(String(oj.id))) merged.push(oj);
+  }
+  return merged;
 }
 
 async function main() {

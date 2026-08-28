@@ -9,6 +9,7 @@ next-env.d.ts
 
 # 런타임 상태 저장 파일 (앱이 갱신) — 시드 커밋을 원하면 아래 줄을 지우세요
 /data/status.json
-/data/settings.json
 /data/new-jobs.json
 /data/inbox/
+# settings.json 은 커밋함 (평가 기준을 클라우드 취합 루틴이 읽어야 함).
+# lastCollectedAt 등 실행 상태도 같이 커밋되지만 감수.

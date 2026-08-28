@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "weights": {
+      "daegu": 0,
+      "salary": 1,
+      "companyValue": 4,
+      "liberalArtsOk": 1,
+      "benefits": 4,
+      "majorAny": 4,
+      "publicJob": 0
+    },
+    "thresholds": {
+      "A": 75,
+      "B": 60,
+      "C": 45
+    },
+    "hardFilters": {
+      "noWrittenTest": false,
+      "regularOnly": true,
+      "newOrAny": true,
+      "excludeSciTechPro": true
+    }
+  },
+  "dailyCollectAt": "09:00",
+  "lastCollectedAt": "2026-08-28T11:06:42.315Z",
+  "lastCollectSource": "inbox"
+}
