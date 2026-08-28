@@ -59,9 +59,20 @@ async function loadJson(name: string): Promise<string | null> {
   return null;
 }
 
-/** data/ranked-jobs.json 을 매 요청마다 새로 읽는다 (파일 갱신 → 새로고침 반영). */
+/** data/ranked-jobs.json 을 매 요청마다 새로 읽는다 (파일 갱신 → 새로고침 반영).
+ * 읽기전용 FS(Vercel)에서는 collect 가 tmp 에 갱신본을 쓰므로 tmp 를 먼저 본다.
+ * 메모리 캐시는 쓰지 않는다 — 재취합 직후 새로고침에 즉시 반영되도록. */
 export async function readRankedJobs(): Promise<RankedJobsFile> {
-  const raw = await fs.readFile(RANKED_PATH, "utf-8");
+  let raw: string | null = null;
+  for (const p of [path.join(TMP_DIR, "ranked-jobs.json"), RANKED_PATH]) {
+    try {
+      raw = await fs.readFile(p, "utf-8");
+      break;
+    } catch (err) {
+      if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
+    }
+  }
+  if (raw == null) throw new Error("ranked-jobs.json 을 읽을 수 없습니다.");
   const parsed = JSON.parse(raw);
   const jobs = Array.isArray(parsed) ? parsed : parsed.jobs;
   if (!Array.isArray(jobs)) {

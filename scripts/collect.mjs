@@ -22,6 +22,7 @@
  */
 import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import os from "node:os";
 import path from "node:path";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -31,6 +32,22 @@ const INBOX = path.join(ROOT, "data", "inbox", "ranked-jobs.json");
 const FETCHER = path.join(ROOT, "scripts", "fetch-saramin.mjs");
 /** 이번 취합에서 "새로 올라온" 공고만 추린 결과 — 카카오톡 알림 등이 읽어감. */
 const NEW_JOBS = path.join(ROOT, "data", "new-jobs.json");
+
+/** 읽기전용 FS(Vercel /var/task)면 os.tmpdir() 로 강등해서 쓴다. lib/data.ts 와 같은 경로. */
+const TMP_DIR = path.join(os.tmpdir(), "job-status-board");
+const RO_CODES = new Set(["EROFS", "EACCES", "EPERM", "ENOENT"]);
+async function writeResilient(absPath, text) {
+  try {
+    await writeFile(absPath, text, "utf-8");
+    return absPath;
+  } catch (e) {
+    if (!RO_CODES.has(e.code)) throw e;
+    await mkdir(TMP_DIR, { recursive: true });
+    const alt = path.join(TMP_DIR, path.basename(absPath));
+    await writeFile(alt, text, "utf-8");
+    return alt;
+  }
+}
 
 const AXIS_KEYS = ["daegu", "salary", "companyValue", "liberalArtsOk", "benefits", "majorAny", "publicJob"];
 const DEFAULT_WEIGHTS = { daegu: 2, salary: 1, companyValue: 1, liberalArtsOk: 1, benefits: 1, majorAny: 2, publicJob: 1 };
@@ -65,7 +82,7 @@ async function getFreshJobs(criteria) {
   if (inbox) {
     const jobs = Array.isArray(inbox) ? inbox : inbox.jobs ?? [];
     if (jobs.length) {
-      await mkdir(path.dirname(INBOX), { recursive: true });
+      // 처리 완료 표시 (읽기전용 FS 면 실패해도 무시 — 취합 자체는 진행)
       await rename(INBOX, path.join(ROOT, "data", "inbox", `processed-${Date.now()}.json`)).catch(() => {});
       return { jobs, source: "inbox" };
     }
@@ -128,7 +145,7 @@ async function main() {
   const out = Array.isArray(file)
     ? recomputed
     : { ...file, generatedAt: new Date().toISOString().slice(0, 10), jobs: recomputed };
-  await writeFile(RANKED, JSON.stringify(out, null, 2) + "\n", "utf-8");
+  const rankedWrittenTo = await writeResilient(RANKED, JSON.stringify(out, null, 2) + "\n");
 
   // 이번 취합에서 새로 올라온 공고 (점수순) → data/new-jobs.json
   const newJobs = recomputed
@@ -145,10 +162,9 @@ async function main() {
       url: j.url,
       firstSeenAt: j.firstSeenAt
     }));
-  await writeFile(
+  await writeResilient(
     NEW_JOBS,
-    JSON.stringify({ generatedAt: nowIso, source, count: newJobs.length, jobs: newJobs }, null, 2) + "\n",
-    "utf-8"
+    JSON.stringify({ generatedAt: nowIso, source, count: newJobs.length, jobs: newJobs }, null, 2) + "\n"
   );
 
   const nextSettings = {
@@ -156,16 +172,18 @@ async function main() {
     lastCollectedAt: new Date().toISOString(),
     lastCollectSource: source
   };
-  await writeFile(SETTINGS, JSON.stringify(nextSettings, null, 2) + "\n", "utf-8");
+  await writeResilient(SETTINGS, JSON.stringify(nextSettings, null, 2) + "\n");
 
+  const roFallback = rankedWrittenTo !== RANKED;
   const msg =
-    source === "rescore"
+    (source === "rescore"
       ? `${recomputed.length}개 공고 재채점 (새 사람인 데이터 없음 — inbox/fetch-saramin 미연결)`
-      : `${recomputed.length}개 공고 취합 (source: ${source}) · 신규 ${newJobs.length}`;
+      : `${recomputed.length}개 공고 취합 (source: ${source}) · 신규 ${newJobs.length}`) +
+    (roFallback ? " · 읽기전용 FS → 임시 저장(tmp)" : "");
   console.log(`[collect] ${msg} · 기준 ${JSON.stringify(weights)} · ${new Date().toLocaleString("ko-KR")}`);
   // JSON 한 줄 — API 가 파싱
   console.log(
-    `__RESULT__ ${JSON.stringify({ ok: true, source, jobCount: recomputed.length, newCount: newJobs.length, message: msg })}`
+    `__RESULT__ ${JSON.stringify({ ok: true, source, jobCount: recomputed.length, newCount: newJobs.length, storage: roFallback ? "tmp" : "fs", message: msg })}`
   );
 }
 
