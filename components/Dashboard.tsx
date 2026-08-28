@@ -266,6 +266,20 @@ export default function Dashboard() {
     [scored]
   );
 
+  // ----- 지원 현황(보관함): 지원상태가 '미지원' 이 아닌 공고 -----
+  // 취합에서 빠진 공고도 status 맵에 남아 있으면 계속 보여준다 (별도 보관).
+  const appliedList = useMemo(() => {
+    const order: Record<string, number> = { 서류통과: 0, 지원함: 1, 탈락: 2 };
+    const byId = new Map(scored.map((j) => [j.id, j]));
+    return Object.entries(status)
+      .filter(([, s]) => s && s !== "미지원")
+      .map(([id, s]) => ({ id, status: s as ApplyStatus, job: byId.get(id) }))
+      .sort((a, b) => {
+        const o = (order[a.status] ?? 9) - (order[b.status] ?? 9);
+        return o !== 0 ? o : (b.job?.liveScore ?? -1) - (a.job?.liveScore ?? -1);
+      });
+  }, [status, scored]);
+
   // ----- 요약 (하드필터 통과분 기준) -----
   const summary = useMemo(() => {
     const byGrade: Record<Grade, number> = { A: 0, B: 0, C: 0, D: 0 };
@@ -278,10 +292,11 @@ export default function Dashboard() {
       total: included.length,
       excluded: excludedJobs.length,
       newToday: scored.filter((j) => isNewToday(j.firstSeenAt)).length,
+      applied: appliedList.length,
       byGrade,
       avg: included.length ? Math.round((sum / included.length) * 10) / 10 : 0
     };
-  }, [included, excludedJobs, scored]);
+  }, [included, excludedJobs, scored, appliedList]);
 
   // ----- 필터 + 정렬 -----
   const visible = useMemo(() => {
@@ -345,6 +360,9 @@ export default function Dashboard() {
             {summary.newToday > 0 && (
               <span className="stat__sub stat__sub--new"> · 오늘 신규 {summary.newToday}</span>
             )}
+            {summary.applied > 0 && (
+              <span className="stat__sub"> · 지원 {summary.applied}</span>
+            )}
             {summary.excluded > 0 && (
               <span className="stat__sub"> · 제외 {summary.excluded}</span>
             )}
@@ -382,6 +400,78 @@ export default function Dashboard() {
         collectStatus={collectStatus}
         saveWarn={settingsWarn}
       />
+
+      {/* 지원 현황 · 보관함 — 취합에서 빠져도 계속 유지 */}
+      {appliedList.length > 0 && (
+        <details className="applied" open>
+          <summary>
+            <span>지원 현황 · 보관함 <b>{appliedList.length}</b></span>
+            <span className="applied__preview">
+              {(["서류통과", "지원함", "탈락"] as const).map((s) => {
+                const n = appliedList.filter((a) => a.status === s).length;
+                return n > 0 ? (
+                  <span className="status" data-status={s} key={s}>
+                    {s} {n}
+                  </span>
+                ) : null;
+              })}
+            </span>
+          </summary>
+          <ul className="applied__list">
+            {appliedList.map(({ id, status: st, job }) => {
+              const url =
+                job?.url ?? `https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=${id}`;
+              return (
+                <li key={id} data-st={st}>
+                  <StatusSelect value={st} onChange={(s) => changeStatus(id, s)} />
+                  {job ? (
+                    <>
+                      <span className={`grade grade--${job.liveGrade}`}>{job.liveGrade}</span>
+                      <span className="applied__score">{job.liveScore}</span>
+                      <span className="applied__co">{job.company}</span>
+                      <span className="applied__role">{job.role}</span>
+                      <span className="applied__loc">
+                        {job.location} · 마감 {job.deadline}
+                        {job.excluded && ` · 제외조건: ${job.excludedFor.join(", ")}`}
+                      </span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="applied__co">공고 #{id}</span>
+                      <span className="applied__role applied__role--gone">
+                        현재 취합 목록에 없음 — 원본 링크로 확인
+                      </span>
+                    </>
+                  )}
+                  <button
+                    className="dd-btn"
+                    data-available={deepDiveIds.has(id)}
+                    disabled={!job}
+                    onClick={() =>
+                      job &&
+                      setOpenDeepDive({
+                        id,
+                        title: `${job.company} · ${job.role}`,
+                        score: job.liveScore,
+                        grade: job.liveGrade
+                      })
+                    }
+                  >
+                    {deepDiveIds.has(id) ? "🔍 심층조사" : "심층조사"}
+                  </button>
+                  <a className="link" href={url} target="_blank" rel="noreferrer">
+                    공고 ↗
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+          <p className="applied__note">
+            지원상태를 <b>미지원</b> 이외로 바꾸면 여기에 보관됩니다. 취합에서 빠진 공고도 계속
+            남습니다. <b>미지원</b> 으로 되돌리면 목록에서 빠집니다.
+          </p>
+        </details>
+      )}
 
       {/* 2. 툴바 */}
       <div className="toolbar">
