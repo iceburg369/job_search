@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-16",
   "source": "Saramin MCP (대구 중심 + 청주·수도권·세종 일부) + 사용자 정의 7축 평가",
   "candidate": "박정연 · 계명대 중국어중국학과(문과) · 대구 거주 · 신입 · 정규직 희망 · 희망연봉 3,000만원 내외 (구글드라이브 정연/자소서 참조)",
   "criteria": {
@@ -26,6 +26,1835 @@
     }
   },
   "jobs": [
+    {
+      "id": "55044418",
+      "company": "(주)동양에스텍",
+      "role": "(주)동양에스텍 대구사무소 마케팅판매관리직원 채용공고",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 북구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55044418",
+      "recIdx": 55044418,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 자녀학자금"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55044280",
+      "company": "(주)플레이파크",
+      "role": "[대구] 회사와 함께 성장할 영업 담당자분을 모십니다.",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55044280",
+      "recIdx": 55044280,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 기숙사 운영"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55044085",
+      "company": "(주)네이션컴퍼니",
+      "role": "대구-LG,SK,KT인터넷 인바운드",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 남구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55044085",
+      "recIdx": 55044085,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 인센티브제"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55043728",
+      "company": "(주)디에스시스템",
+      "role": "총무·자재·고객지원 담당자를 찾고 있어요",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55043728",
+      "recIdx": 55043728,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55043323",
+      "company": "데자뷰메디스킨 대구점",
+      "role": "[주4일제] 대구점 상담실장 충원 모집. 내방고객상담",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 중구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55043323",
+      "recIdx": 55043323,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55043168",
+      "company": "옥천당공동탕전실",
+      "role": "옥천당 공동탕전실에서 회계 및 CS 사무관리 직원을 모집합니다",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "정규직(추정)",
+      "deadline": "채용시 마감",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55043168",
+      "recIdx": 55043168,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55042794",
+      "company": "법무법인오현",
+      "role": "법무법인오현 [대구 분사무소] 송무팀 직원 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55042794",
+      "recIdx": 55042794,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 식비 지원"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55042524",
+      "company": "(주)플레이파크",
+      "role": "[대구] 게임기획서, 사업기획서 인재 모십니다.",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55042524",
+      "recIdx": 55042524,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 기숙사 운영"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55042034",
+      "company": "명신정보통신(주)",
+      "role": "사무직 [정규직 채용]",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 북구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55042034",
+      "recIdx": 55042034,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 야근수당"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55041729",
+      "company": "(주)상상",
+      "role": "SKT 대구 1위 대리점 (주)상상 전산팀 직원 공개채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 중구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55041729",
+      "recIdx": 55041729,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 퇴직금"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 60,
+      "weighted": 42,
+      "grade": "B",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55041147",
+      "company": "(주)옥션원",
+      "role": "(주)옥션원 데이터관리부 1팀(전산팀) 신입사원 모집공고",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55041147",
+      "recIdx": 55041147,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 상여금"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55041057",
+      "company": "(주)두리건설",
+      "role": "(주)두리건설 본사 관리팀",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 중구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55041057",
+      "recIdx": 55041057,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55040957",
+      "company": "템프인(주)",
+      "role": "[대구/3762만+3식/신입O/소속전환]대기업 영업지원 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55040957",
+      "recIdx": 55040957,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55040828",
+      "company": "주식회사 제이앤에이치컴퍼니",
+      "role": "CS 담당 신입/경력 사원 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55040828",
+      "recIdx": 55040828,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55040528",
+      "company": "(주)유로세이프티",
+      "role": "건설업체 관리직사원 모집합니다.",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55040528",
+      "recIdx": 55040528,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 점심식사 제공"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55040190",
+      "company": "웅진에듀",
+      "role": "[대구] 영업 정규직 채용합니다",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-21",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55040190",
+      "recIdx": 55040190,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55039954",
+      "company": "(주)해솔",
+      "role": "인사총무담당 직원 채용(신입/사원)",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 경북",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55039954",
+      "recIdx": 55039954,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 기숙사 운영"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55039738",
+      "company": "템프인(주)",
+      "role": "[대구/월220만/신입O]유명기업 영업지원 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달성군",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55039738",
+      "recIdx": 55039738,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55039699",
+      "company": "(주)백메가",
+      "role": "[대구본사] 인바운드 신입&경력자 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55039699",
+      "recIdx": 55039699,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 칼퇴근 보장"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55039669",
+      "company": "엠지미디어",
+      "role": "엠지미디어 대구 온라인마케팅 콘텐츠제작자 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 중구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55039669",
+      "recIdx": 55039669,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55039345",
+      "company": "(주)씨엠에이글로벌",
+      "role": "[중국팀] 구매소싱 업무",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55039345",
+      "recIdx": 55039345,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "중국어 활용 가능 직무"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55039314",
+      "company": "굿유",
+      "role": "굿유 해외영업관리 채용 공고",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55039314",
+      "recIdx": 55039314,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55039001",
+      "company": "(주)커리어스타",
+      "role": "고용노동부 국민취업지원제도사업 직업상담사 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 3
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 북구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55039001",
+      "recIdx": 55039001,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 상여금"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 60,
+      "weighted": 42,
+      "grade": "B",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55038948",
+      "company": "쿠팡풀필먼트서비스(유)",
+      "role": "[쿠팡CFS] 대구3센터 채용담당자(HR Recruiting) 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달성군",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55038948",
+      "recIdx": 55038948,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 야근수당"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 60,
+      "weighted": 42,
+      "grade": "B",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55038868",
+      "company": "(주)이음앤",
+      "role": "[범어역/주5일/정규직]내근직 보험금지급서면심사직 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 남구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-14",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55038868",
+      "recIdx": 55038868,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 성과급"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55044519",
+      "company": "(주)키스템프그룹",
+      "role": "[대구/주말/유니폼O] 외제차 서비스센터 리셉션 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "정규직(추정)",
+      "deadline": "채용시 마감",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55044519",
+      "recIdx": 55044519,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55043820",
+      "company": "(주)윈시스태영",
+      "role": "사무직 사원 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55043820",
+      "recIdx": 55043820,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 야근수당"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55043466",
+      "company": "주식회사 탑건이노비즈",
+      "role": "[대구/알파시티] 마케팅팀 사무직 채용 (온라인몰 관리 및 발주)",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 남구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-14",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55043466",
+      "recIdx": 55043466,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55041242",
+      "company": "(주)커리어넷",
+      "role": "2026년 제9차 계약직(일반직원) 공개채용 공고",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": false,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달성군",
+      "employmentType": "계약직",
+      "deadline": "D-14",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55041242",
+      "recIdx": 55041242,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 워라밸 Excellent"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55041149",
+      "company": "(주)커리어넷",
+      "role": "[DGIST] 2026년 제6차 대체인력뱅크(계약직) 공개채용 공고",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 2
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": false,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달성군",
+      "employmentType": "계약직",
+      "deadline": "D-14",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55041149",
+      "recIdx": 55041149,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 자유로운 연차사용"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 60,
+      "weighted": 42,
+      "grade": "B",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55040410",
+      "company": "(학)계명대학교동산의료원",
+      "role": "정규직 전환 대상 계약직 공개경쟁채용 공고",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": false,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "계약직",
+      "deadline": "D-10",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55040410",
+      "recIdx": 55040410,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 자유로운 연차사용"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 60,
+      "weighted": 42,
+      "grade": "B",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55041154",
+      "company": "(주)메타엠",
+      "role": "[엑셀,통계사무] 삼성카드 고객센터 DA총무 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 남구",
+      "employmentType": "정규직(추정)",
+      "deadline": "채용시 마감",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55041154",
+      "recIdx": 55041154,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 워라밸 Good"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55038928",
+      "company": "(주)이음앤",
+      "role": "[현대아울렛/점심식대지원,월260이상]LGU+핸드폰114 CS상담",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 남구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-14",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55038928",
+      "recIdx": 55038928,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 칼퇴근 보장"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 60,
+      "weighted": 42,
+      "grade": "B",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55038395",
+      "company": "(주)조이널",
+      "role": "온라인 쇼핑몰 운영 및 경영지원 담당 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55038395",
+      "recIdx": 55038395,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55038105",
+      "company": "플씨드",
+      "role": "주식회사 플씨드 상담 신입직원 모집합니다.",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55038105",
+      "recIdx": 55038105,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55037980",
+      "company": "에스엠서치플러스(주)",
+      "role": "DAESUNGN대구/카드분야/09시출근(풀타임)/전화상담 -SS",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "채용시 마감",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55037980",
+      "recIdx": 55037980,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55037924",
+      "company": "(주)아세아텍",
+      "role": "(주)아세아텍 영업본부 콜센터 및 영업소 경력/신입 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달성군",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-51",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55037924",
+      "recIdx": 55037924,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 상여금"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55037914",
+      "company": "(주)아인교육",
+      "role": "(주)아인교육 교육쇼핑몰 수발주 및 MD",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 동구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55037914",
+      "recIdx": 55037914,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 퇴직금"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55037683",
+      "company": "(주)라이프워시퍼",
+      "role": "[라이프워시퍼] 대구 지점 아웃바운드(TM) 리크루터 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 중구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55037683",
+      "recIdx": 55037683,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 자유로운 연차사용"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55044666",
+      "company": "(주)코그",
+      "role": "[코그] 게임 서비스 해외 PM(영어권, 중화권)",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 3,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 중구",
+      "employmentType": "정규직(추정)",
+      "deadline": "채용시 마감",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55044666",
+      "recIdx": 55044666,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "중국어 활용 가능 직무",
+        "복지: 기숙사 운영"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 60,
+      "weighted": 42,
+      "grade": "B",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55038065",
+      "company": "(주)피엔티엠에스",
+      "role": "영업팀 [영업, 무역사무, 영업관리사무원] 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55038065",
+      "recIdx": 55038065,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 점심식사 제공"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55029528",
+      "company": "리프트성형외과",
+      "role": "[리프트성형외과·피부과] 글로벌 코디네이터 모십니다.",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 중구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-28",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55029528",
+      "recIdx": 55029528,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55025970",
+      "company": "(주)호텔라온제나",
+      "role": "호텔라온제나 객실팀 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-4",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55025970",
+      "recIdx": 55025970,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)",
+        "복지: 자녀학자금"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 49,
+      "weighted": 34,
+      "grade": "C",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55045985",
+      "company": "주식회사더프라임교육",
+      "role": "더프라임수학 전산직원 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "정규직(추정)",
+      "deadline": "채용시 마감",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55045985",
+      "recIdx": 55045985,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "전공무관 추정 (문과 지원 가능)"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
+    {
+      "id": "55045196",
+      "company": "(주)코리아반도체조명",
+      "role": "영업지원실 경력무관 채용 (캐드 및 운전 필수)",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 2,
+        "benefits": 3,
+        "majorAny": 2,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55045196",
+      "recIdx": 55045196,
+      "matchReasons": [
+        "대구 근무",
+        "경력무관/신입 지원 가능",
+        "복지: 점심식사 제공"
+      ],
+      "missingKeywords": [
+        "급여 미기재",
+        "기업정보 부족",
+        "캐드/운전 등 실무 요건 - 문과 지원자 불리"
+      ],
+      "notes": null,
+      "score": 40,
+      "weighted": 28,
+      "grade": "D",
+      "firstSeenAt": "2026-09-16T00:09:01.554Z"
+    },
     {
       "id": "55036472",
       "company": "한국소방기구제작소대구영업소",
