@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19",
+  "generatedAt": "2026-09-20",
   "source": "Saramin MCP (대구 중심 + 청주·수도권·세종 일부) + 사용자 정의 7축 평가",
   "candidate": "박정연 · 계명대 중국어중국학과(문과) · 대구 거주 · 신입 · 정규직 희망 · 희망연봉 3,000만원 내외 (구글드라이브 정연/자소서 참조)",
   "criteria": {
@@ -26,6 +26,349 @@
     }
   },
   "jobs": [
+    {
+      "id": "55082120",
+      "company": "행복나눔꽃배달",
+      "role": "꽃집 꽃배달 주문접수 / 인바운드 고객상담 / CS업무",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 1,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 1,
+        "majorAny": 5,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 북구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55082120",
+      "recIdx": 55082120,
+      "matchReasons": [
+        "인바운드 CS/고객상담 업무로 전공무관·문과 지원에 적합",
+        "대구 북구 소재"
+      ],
+      "missingKeywords": [
+        "급여·복지 정보 확인 불가"
+      ],
+      "notes": null,
+      "score": 47,
+      "weighted": 33,
+      "grade": "C",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
+    {
+      "id": "55081790",
+      "company": "(주)한림팩",
+      "role": "공무시설관리 정규직 신입 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 2,
+        "liberalArtsOk": 2,
+        "benefits": 3,
+        "majorAny": 2,
+        "publicJob": 4
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": true
+      },
+      "location": "대구 동구",
+      "employmentType": "정규직",
+      "deadline": "D-41",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55081790",
+      "recIdx": 55081790,
+      "matchReasons": [
+        "공무직 축과 매칭",
+        "기숙사 운영 등 복지 표기"
+      ],
+      "missingKeywords": [
+        "시설관리 기술직군 성격 강함 - 문과 적합성 낮음(하드필터로 제외될 수 있음)"
+      ],
+      "notes": "공무시설관리는 기술/설비 성격의 직무로 이과 전문직종 제외 필터에 해당될 가능성 있음",
+      "score": 46,
+      "weighted": 32,
+      "grade": "C",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
+    {
+      "id": "55082466",
+      "company": "메디온(medion)",
+      "role": "종합병원 의료기기 영업직·관리직 신입/경력 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 1,
+        "majorAny": 4,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55082466",
+      "recIdx": 55082466,
+      "matchReasons": [
+        "영업/관리직으로 신입 지원 가능",
+        "대구 수성구 소재"
+      ],
+      "missingKeywords": [
+        "급여·복지 정보 확인 불가"
+      ],
+      "notes": null,
+      "score": 43,
+      "weighted": 30,
+      "grade": "D",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
+    {
+      "id": "55081867",
+      "company": "사이먼 컴퍼니",
+      "role": "[KT 유선대리점] 개발부(사업개발/현장서포트) 신입/경력 채용",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 1,
+        "companyValue": 1,
+        "liberalArtsOk": 3,
+        "benefits": 1,
+        "majorAny": 4,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55081867",
+      "recIdx": 55081867,
+      "matchReasons": [
+        "사업개발/현장서포트로 문과 신입 지원 가능",
+        "경력무관 명시"
+      ],
+      "missingKeywords": [
+        "급여·복지 정보 확인 불가"
+      ],
+      "notes": null,
+      "score": 40,
+      "weighted": 28,
+      "grade": "D",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
+    {
+      "id": "55082606",
+      "company": "스위트스마일주식회사",
+      "role": "(정규직) 행정 경력무관 모집",
+      "breakdown": {
+        "daegu": 0,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 5,
+        "benefits": 1,
+        "majorAny": 5,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "서울 강남구",
+      "employmentType": "정규직",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55082606",
+      "recIdx": 55082606,
+      "matchReasons": [
+        "행정 직무·경력무관으로 문과 신입에 적합"
+      ],
+      "missingKeywords": [
+        "대구 지역 아님(수도권)",
+        "급여·복지 정보 확인 불가"
+      ],
+      "notes": "수도권(서울 강남구) 소재",
+      "score": 50,
+      "weighted": 35,
+      "grade": "C",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
+    {
+      "id": "55081777",
+      "company": "(주)주아코리아",
+      "role": "경리 경력무관 채용(중국어 환영, 정규직)",
+      "breakdown": {
+        "daegu": 0,
+        "salary": 2,
+        "companyValue": 1,
+        "liberalArtsOk": 5,
+        "benefits": 1,
+        "majorAny": 4,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "경기 화성시",
+      "employmentType": "정규직",
+      "deadline": "D-59",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55081777",
+      "recIdx": 55081777,
+      "matchReasons": [
+        "중국어 전공 활용 가능(중국어 환영 명시)",
+        "경리 사무직, 경력무관"
+      ],
+      "missingKeywords": [
+        "대구 지역 아님(경기)",
+        "급여·복지 정보 확인 불가"
+      ],
+      "notes": "수도권(경기 화성시) 소재 · 중국어중국학과 전공과 직접 연관",
+      "score": 44,
+      "weighted": 31,
+      "grade": "D",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
+    {
+      "id": "55083490",
+      "company": "강사인",
+      "role": "(사무직) 9~18시, 금요일 17시30분, 주5일 연봉3000",
+      "breakdown": {
+        "daegu": 0,
+        "salary": 4,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 2,
+        "majorAny": 4,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "세종특별자치시",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-60",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55083490",
+      "recIdx": 55083490,
+      "matchReasons": [
+        "연봉 3000만원 명시 - 희망연봉과 일치",
+        "주5일·정시퇴근 조건 양호"
+      ],
+      "missingKeywords": [
+        "대구 지역 아님(세종)"
+      ],
+      "notes": "수도권 외 세종 소재 · 연봉 조건이 명확히 좋음",
+      "score": 51,
+      "weighted": 36,
+      "grade": "C",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
+    {
+      "id": "55081481",
+      "company": "(주)아카바러닝",
+      "role": "[아카바 영어학원] 핵심 포지션 관리부 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 1,
+        "companyValue": 1,
+        "liberalArtsOk": 3,
+        "benefits": 2,
+        "majorAny": 3,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 수성구",
+      "employmentType": "정규직(추정)",
+      "deadline": "D-29",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55081481",
+      "recIdx": 55081481,
+      "matchReasons": [
+        "어학원 관리부(행정) 업무로 문과 지원 가능"
+      ],
+      "missingKeywords": [
+        "구체 업무(강사 겸직 여부) 확인 불가",
+        "급여·복지 정보 확인 불가"
+      ],
+      "notes": null,
+      "score": 40,
+      "weighted": 28,
+      "grade": "D",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
+    {
+      "id": "55081326",
+      "company": "(재)티엘엠복지선교회",
+      "role": "예수의원 피부과 / 원무과 정규직 모집",
+      "breakdown": {
+        "daegu": 5,
+        "salary": 1,
+        "companyValue": 1,
+        "liberalArtsOk": 4,
+        "benefits": 3,
+        "majorAny": 4,
+        "publicJob": 0
+      },
+      "filterFlags": {
+        "hasWrittenTest": false,
+        "isRegular": true,
+        "isNewOrAny": true,
+        "isSciTechPro": false
+      },
+      "location": "대구 달서구",
+      "employmentType": "정규직",
+      "deadline": "D-28",
+      "writtenTest": "확인 불가",
+      "url": "https://saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55081326",
+      "recIdx": 55081326,
+      "matchReasons": [
+        "원무과(병원 행정/CS) 업무로 문과·전공무관 적합",
+        "사택 제공 등 복지 표기"
+      ],
+      "missingKeywords": [
+        "급여 정보 확인 불가"
+      ],
+      "notes": null,
+      "score": 53,
+      "weighted": 37,
+      "grade": "C",
+      "firstSeenAt": "2026-09-20T00:22:45.626Z"
+    },
     {
       "id": "55080911",
       "company": "주식회사 송림온",
